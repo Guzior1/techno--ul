@@ -1,0 +1,10 @@
+REM TECHNO ZUL - BadUSB Cardputer Bruce - wariant offline
+REM Wczesniej przez Files > Mass Storage skopiuj plik:
+REM techno_zul_ascii.cmd do C:\Techno\techno_zul_ascii.cmd na komputerze.
+REM Po zakonczeniu kopiowania i wylaczeniu Mass Storage uruchom BadUSB.
+REM Uruchamiaj wylacznie na swoim komputerze lub za zgoda wlasciciela.
+DELAY 1600
+GUI r
+DELAY 700
+STRING cmd.exe /k "C:\Techno\techno_zul_ascii.cmd"
+ENTER
